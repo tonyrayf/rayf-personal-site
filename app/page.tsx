@@ -45,11 +45,11 @@ export default function Home() {
   return (
     <div className={`${styles.general} ${font.className}`}>
       {/* Bubbles */}
-      {/*<iframe
+      <iframe
           src="/bubbles_bg/index.html"
           style={{ width: '100vw', height: '100vh', border: 'none', position: 'absolute', top: '0px', zIndex: -1, overflow: "hidden"}}
           scrolling="no"
-      />*/}
+      />
       
 
       {/* Header */}
