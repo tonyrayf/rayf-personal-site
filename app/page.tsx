@@ -46,6 +46,10 @@ export default function Home() {
       <head>
         <title>RayF</title>
         <meta name="description" content="Персональный сайт RayF" />
+        {avatars.map((src) => (
+          <link key={src} rel="preload" as="image" href={src} />
+        ))}
+        <link rel="preload" as="image" href="rayf.png" />
       </head>
       <body>
         <div className={`${styles.general} ${font.className}`}>
