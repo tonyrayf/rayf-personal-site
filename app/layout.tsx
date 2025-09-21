@@ -5,6 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "RayF",
   description: "Персональный сайт RayF",
+  icons: "rayf.png"
 };
 
 export default function RootLayout({
@@ -17,6 +18,7 @@ export default function RootLayout({
       <head>
         <title>RayF</title>
         <meta name="description" content="Персональный сайт RayF" />
+        <link rel="icon" href="rayf.png" />
       </head>
       <body>
         {children}

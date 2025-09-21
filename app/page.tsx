@@ -46,6 +46,7 @@ export default function Home() {
       <head>
         <title>RayF</title>
         <meta name="description" content="Персональный сайт RayF" />
+        <link rel="icon" href="rayf.png" />
         {avatars.map((src) => (
           <link key={src} rel="preload" as="image" href={src} />
         ))}
