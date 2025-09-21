@@ -1,0 +1,20 @@
+.title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.list {
+    padding-left: 9px;
+    padding-bottom: 40px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.image {
+    height: 200px;
+    border-radius: 15px;
+}

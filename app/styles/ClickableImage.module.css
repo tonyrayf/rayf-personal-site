@@ -1,0 +1,12 @@
+.image {
+    height: 200px;
+    border-radius: 15px;
+    filter: brightness(75%);
+    cursor: pointer;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+}
+
+.image:hover {
+    filter: brightness(90%);
+}

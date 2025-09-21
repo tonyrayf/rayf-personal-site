@@ -1,0 +1,29 @@
+.logos {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    justify-self: center;
+    padding-bottom: 53px;
+}
+
+.logo {
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.mail {
+    cursor: pointer;
+    color: rgb(207, 207, 207);
+    text-decoration: underline;
+
+    transition-duration: .1s;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+}
+
+.mail:hover {
+   color: white;
+}

@@ -1,0 +1,42 @@
+.header {
+    position: sticky;
+    justify-content: center;
+    justify-self: center;
+    background-color: #111111;
+
+    border-bottom: 1px solid rgb(54, 54, 54);
+
+    padding-bottom: 20px;
+
+    padding-top: 40px;
+    
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+
+    justify-content: center;
+    margin-left: 60px;
+    gap: 60px;
+}
+
+.avatar {
+    width: 80px;
+
+    border-radius: 15px;
+
+    cursor: pointer;
+
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.5,0,.5,1);
+}
+
+.avatar:hover {
+    transform: scale(1.05);
+}

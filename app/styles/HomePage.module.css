@@ -1,0 +1,23 @@
+.general {
+    font-size: 22px;
+    color: white;
+}
+
+.main {
+    justify-self: center;
+
+    background-color: #111111d0;
+
+    width: 38%;
+    font-size: 19px;
+    text-align: left;
+    padding-top: 30px;
+    word-break: break-word;
+
+}
+
+.main_title {
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
