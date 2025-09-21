@@ -56,7 +56,6 @@ export default function Home() {
               scrolling="no"
           />
           
-
           {/* Header */}
           <div className={hStyles.header}>
                 <img alt="Avatar" className={hStyles.avatar} src={avatars[currentPage-1]} onClick={() => setPage(1)} style={{scale: visible ? 1 : 0.95}} />
@@ -71,14 +70,21 @@ export default function Home() {
                     { currentPage === 2 ? <div style={{fontSize: "24px"}}>Контакты</div> : <div onClick={() => setPage(2)}><Button name="Контакты" /></div> }
                 </div>
             </div>
-          
 
           {/* Content */}
           <main className={styles.main}>
-            { currentPage === 1 && <Main /> }
-            { currentPage === 3 && <About /> }
-            { currentPage === 4 && <Hobby /> }
-            { currentPage === 2 && <Contacts /> }
+            <div style={{ display: currentPage === 1 ? 'block' : 'none' }}>
+              <Main />
+            </div>
+            <div style={{ display: currentPage === 3 ? 'block' : 'none' }}>
+              <About />
+            </div>
+            <div style={{ display: currentPage === 4 ? 'block' : 'none' }}>
+              <Hobby />
+            </div>
+            <div style={{ display: currentPage === 2 ? 'block' : 'none' }}>
+              <Contacts />
+            </div>
           </main>
         </div>
       </body>
