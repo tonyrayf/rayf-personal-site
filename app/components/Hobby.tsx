@@ -1,6 +1,5 @@
 import styles from "@/app/styles/Hobby.module.css";
 import t_style from "@/app/styles/Transition.module.css";
-import Image from "next/image";
 
 export default function Hobby() {
   return (
@@ -11,7 +10,7 @@ export default function Hobby() {
       <ul className={styles.list}>
         <li>⚛️ Любимая наука - Физика</li>
         <li>🧑🏻‍🔬 Любимый учёный - Ричард Фейнман</li>
-        <li>🟰 Любимая формула - <Image src="euler_identity.png" style={{height: "38px", display: "inline"}} alt="Euler's identity" /> (хочу себе татуху набить с ней)</li>
+        <li>🟰 Любимая формула - <img src="euler_identity.png" style={{height: "38px", display: "inline"}} alt="Euler's identity" /> (хочу себе татуху набить с ней)</li>
       </ul>
 
       <div className={styles.title}>🎼Музыка</div>

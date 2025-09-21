@@ -1,6 +1,5 @@
 import styles from "@/app/styles/Contacts.module.css";
 import t_style from "@/app/styles/Transition.module.css";
-import Image from "next/image";
 
 const logo_width = 95;
 
@@ -11,17 +10,17 @@ export default function Contacts() {
 
       <div className={styles.logos}>
         <a href="https://github.com/tonyrayf" className={styles.logo} style={{textAlign: "center"}}>
-          <Image src="github-mark-white.svg" width={logo_width} alt="GitHub" />
+          <img src="github-mark-white.svg" width={logo_width} alt="GitHub" />
           tonyrayf
         </a>
 
         <a href="https://t.me/ToonyTon" className={styles.logo} style={{textAlign: "center"}}>
-          <Image src="telegram-mark.png" width={logo_width} alt="Telegram" />
+          <img src="telegram-mark.png" width={logo_width} alt="Telegram" />
           @ToonyTon
         </a>
 
         <a href="https://steamcommunity.com/id/ARF-paradox/" className={styles.logo} style={{textAlign: "center"}}>
-          <Image src="steam_logo.png" width={logo_width} alt="Steam" />
+          <img src="steam_logo.png" width={logo_width} alt="Steam" />
           ARF-paradox
         </a>
       </div>
