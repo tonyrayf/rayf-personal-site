@@ -1,11 +1,9 @@
 .images {
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
 }
 
 .list {
-  margin-left: 22px;
   padding-bottom: 30px;
-  list-style-type: disc;
 }
