@@ -26,7 +26,7 @@ export default function About() {
         <div style={{display: "flex", flexDirection: "column", gap: "1px", width: "50%"}}>
           <ListBox text="Барабаны" logo="/drums_emoji.png" alt="Drum emoji" />
           <ListBox text="GameMaker" logo="/gms_logo.png" alt="GameMaker logo" />
-          <ListBox text="Прокрастинация" logo="/angel_emoji.png" alt="Angel emoji" />
+          <ListBox text="Figma" logo="/figma.png" alt="Figma" />
         </div>
       </div>
     </div>
